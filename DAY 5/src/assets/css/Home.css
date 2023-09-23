@@ -1,0 +1,10 @@
+.bd {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+        background-image: url('https://c1.wallpaperflare.com/preview/23/104/957/mansion-house-home-estate.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;      
+    display: flex;
+    height: 100vh;
+}
