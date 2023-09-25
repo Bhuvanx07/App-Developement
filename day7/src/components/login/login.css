@@ -1,0 +1,75 @@
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.full {
+    
+    /* background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    margin-right:  40%;
+    display: flex;
+    justify-content: center;
+    animation: slideIn 1s ease-in-out;
+}
+
+.outer {
+    margin-left: 70%;
+    height: 40%;
+    width: 40%;
+    animation: slideIn 1s ease-in-out;
+}
+
+#head,
+#title {
+    color: blueviolet;
+    margin-top: 20px;
+    animation: slideIn 1s ease-in-out;
+}
+
+#title {
+    margin-top: 10px;
+    color:green
+}
+
+#t {
+    color: green;
+    margin-top: 20px;
+    animation: slideIn 1s ease-in-out;
+}
+
+#usrnm,
+#email,
+#password,
+#mob {
+    border: 2px solid blueviolet;
+    height: 35px;
+    width: 60%;
+    background-color: white;
+    animation: slideIn 1s ease-in-out;
+}
+
+#cname,
+#cemail,
+#cpassword,
+#cphone {
+    color: green;
+}
+
+.fields {
+    margin-top: 100px;
+    animation: slideIn 1s ease-in-out;
+}
+
+#lower {
+    color: blueviolet;
+    animation: slideIn 1s ease-in-out;
+}
