@@ -1,0 +1,15 @@
+.mib{
+    width: 30px;
+    display: flex;
+}
+.ig{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.cd{
+    color: rgb(195, 118, 243);
+}
+.poi{
+    margin-left: 10px;
+}
